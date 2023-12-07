@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #092635;
+}
+
+
+.main-hero{
+    height: 70vh;
+    
+}
+
+.hero-section{
+   display: flex;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+}
+
+.hero-heading{
+ font-size: 6rem;
+ text-align: start;
+}
+.hero-text-info{
+    font-size: 1.3rem;
+     color: white;
+}
+
+
+.hero-photo{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.header-logo{
+    width: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 1024px){
+    .hero-heading{
+        font-size: 3.5rem;
+        text-align: start;
+       }
+    .hero-text-info{
+        font-size: 1em;
+    }
+
+    .hero-image{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        
+    }
+}
+
+@media (max-width: 778px){
+    .hero-heading{
+        font-size: 2.5rem;
+        text-align: start;
+       }
+    .hero-text-info{
+        font-size: 0.9rem;
+    }
+
+    .hero-image{
+        max-width:500px;
+        height: 250px;
+        object-fit: cover;
+        
+    }
+}
+
+@media (max-width: 500px){
+
+    .hero-heading{
+        font-size: 3rem;
+        text-align: start;
+       }
+    .hero-text-info{
+        font-size: 0.9rem;
+    }
+
+    .hero-image{
+     max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+.container-iskomap{
+    height: 50vh;
+   
+}
+
+.card-body-cotainer{
+    display: flex;
+    justify-content: center;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    min-width: 250px;
+   
+}
+
+.card-profile{
+    max-width: 100%;
+    
+    object-fit: cover;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 10px;
+    color: #978f8f;
+   
+}
+
+
+.organization-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+    grid-template-rows: repeat(autofit, 1fr);
+    color:black;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-top: 50px;
+}
+
+.container-title{
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.organization-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.organization-logo{
+    max-width: 200px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+#organization{
+    position: relative;
+}
+.button-for-back{
+    color: white;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+   
+}
+
+.button-style{
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: white;
+}
+
+.main-developer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+    grid-template-rows: repeat(autofit, 1fr);
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.developer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.developer-logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    object-fit: cover;
+    
+}
+
+.developer-info{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.list-developer{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
